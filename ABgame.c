@@ -10,7 +10,6 @@ int main(void) {
   int i, j, a, b, gus = 0, k;
   char int_arr[20] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
   printf("%s\n", "Four digit random number GENERATED!");
-  printf("The answer is: %d\n", ans);
 
   while(str2int(res) != ans) {
     a = 0;
@@ -88,7 +87,6 @@ int main(void) {
       printf("Correct! You took %d guesses!\n", gus);
       break;
     }
-    printf("%s\n", arr);
     printf("%dA%dB\n", a, b);
   }
   return 0;
